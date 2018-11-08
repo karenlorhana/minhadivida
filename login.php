@@ -30,35 +30,30 @@
             }
         </style>
   </head>
-  <form role="form" name="login" action="loginS.php" method="POST">
+  <form role="form"  action="loginS.php" method="POST">
 
     <div class="container">
       <div class="card card-login mx-auto mt-5">
           <div class="card-header"> <b> Acesse sua conta </b></div>
         <div class="card-body">
-          <form>
+          
             <div class="form-group">
               <div class="form-group ls-login-user">
 					<label for="userLogin">Email</label>
-					<input class="form-control ls-login-bg-user input-lg" id="userLogin" type="text" name="email" aria-label="Email" placeholder="Email">
+					<input class="form-control ls-login-bg-user input-lg" id="userLogin" type="text" name="email" placeholder="Email">
 				</div>
             </div>
             <div class="form-group">
               <div class="form-group ls-login-password">
 					<label for="userPassword">Senha</label>
-					<input class="form-control ls-login-bg-password input-lg" id="userPassword" type="password" name="senha" aria-label="Senha" placeholder="Senha">
+					<input class="form-control ls-login-bg-password input-lg" id="userPassword" type="password" name="senha"  placeholder="Senha">
                                 </div>
             </div>
-              <div class="checkbox">
-                <label>
-                  <input type="checkbox" value="remember-me">
-                  Lembrar-me
-                </label>
-              </div>
+            
               <div class="form-group">
             <div class="form-group">
-            <a class="btn btn-primary btn-block" href="loginS.php">Entrar</a>
-          </form>
+            <button type="submit" class="btn btn-primary btn-lg btn-block ">Entrar</button>
+          
           
         </div>
       </div>
